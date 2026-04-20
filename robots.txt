@@ -1,0 +1,4 @@
+User-agent:*
+Dissallow: /styles/
+Allow: /styles/main.css
+sitemap:
