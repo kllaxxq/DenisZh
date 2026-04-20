@@ -1,4 +1,4 @@
 User-agent:*
 Dissallow: /styles/
 Allow: /styles/main.css
-sitemap:
+sitemap: https://kllaxxq.github.io/DenisZh/Sitemap.xml
