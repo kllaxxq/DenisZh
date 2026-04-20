@@ -1,0 +1,135 @@
+@font-face{
+  font-family:PT-Root-UI_Regular;
+  src: url(font/PT_Root_UI/PT-Root-UI_Regular.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_VF;
+  src: url(font/PT_Root_UI/PT-Root-UI_VF.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_Medium;
+  src: url(font/PT_Root_UI/PT-Root-UI_Medium.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_Light;
+  src: url(font/PT_Root_UI/PT-Root-UI_Light.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_Bold;
+  src: url(font/PT_Root_UI/PT-Root-UI_Bold.ttf)
+}
+
+body{
+    font-family:PT-Root-UI_Regular;
+}
+
+section{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section article{
+    width: 350px;
+    height: 550px;
+    border: 2px solid rgb(212, 212, 212);
+    margin:20px;
+}
+section article .img1{
+    width:350px;
+    height: 400px;
+    background: url(img/coffe.webp);
+    background-size:cover ;
+}
+section article .img2{
+    width:350px;
+    height: 400px;
+    background: url(img/milo.webp);
+    background-position: center;
+    background-size:cover ;
+}
+section article .img3{
+    width:350px;
+    height: 400px;
+    background: url(img/krishka.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+section article .img4{
+    width:350px;
+    height: 400px;
+    background: url(img/krush.webp);
+    background-position: center;
+    background-size:cover;
+}
+section article .img5{
+    width:100%;
+    height: 400px;
+    background: url(img/shashliki.webp);
+    background-position: center;
+    background-size:cover ;
+}
+section article .img6{
+    width:350px;
+    height: 400px;
+    background: url(img/noski.webp);
+    background-position: center;
+    background-size:cover;
+}
+section article .novinka{
+    font-family:PT-Root-UI_Bold;
+    background: rgb(172, 172, 233);
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    position: relative;
+    bottom: 400px;
+    float: right;
+}
+section article .name {
+    width: 220px;
+    font-family: PT-Root-UL_Medium;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 70px;
+    bottom:50px
+}
+section article .price1{
+    background: purple;
+    font-size: 20px;
+    width:50px;
+    padding: 10px;
+    border-radius: 50px;
+    font-family:PT-Root-UI_Bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 270px;
+}
+section article .price2{
+    background: red;
+    font-size: 20px;
+    width:50px;
+    padding: 10px;
+    border-radius: 50px;
+    font-family:PT-Root-UI_Bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 270px;
+}
+section article .price3{
+    background: green;
+    font-size: 20px;
+    width:50px;
+    padding: 10px;
+    border-radius: 50px;
+    font-family:PT-Root-UI_Bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 270px;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+     <link href='https://fonts.googleapis.com/css?family=Unbounded' rel='stylesheet'>
+    <title>Практическая работа №29</title>
+    
+
+</head>
+<body class="bg-light">
+
+<!-- Navigation bar (панель навигации) -->
+<nav class="navbar navbar-expand-lg nav shadow-sm py-2 sticky-top Navigation">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-white" href="#">Жданов | Порошин</a>
+        
+            <div class="d-flex flex-wrap gap-3 ms-auto">
+                <a class="text-decoration-none text-white" href="#">Главная</a>
+                <a class="text-decoration-none text-white" href="#">Авторы</a>
+                <button class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#contactModal">Контакты</button>
+            </div>
+    </div>
+</nav>
+
+<!-- Градиент и название -->
+<div class=" gradient bg-secondary text-white py-5">
+    <div class="container text-center">
+        <h2 class="mb-3">Базовые компоненты</h2>
+        <h1 class="display-1 mb-4">BOOTSTRAP</h1>
+        <button class="btn btn-lg but" data-bs-toggle="modal" data-bs-target="#infoModal">Узнать больше</button>
+    </div>
+</div>
+
+<main class="container my-5">
+    <!-- Cards \ Grid system  -->
+
+    <h1 class="text-center mb-5 txt">Преимущества Bootstrap</h1>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5">
+        <!-- Карточка 1 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card card-body text-center  text-white rounded-3">
+                    <h3 class="card-title mb-3">Адаптивность</h3>
+                    <p class="card-text">Адаптирован на все устройства и разрешения экрана</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Карточка 2 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body text-center card text-white rounded-3">
+                    <h3 class="card-title mb-3">Удобство</h3>
+                    <p class="card-text">Удобен в использовании за счет готовых классов и компонентов</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body text-center card text-white rounded-3">
+                    <h3 class="card-title mb-3">Функционал</h3>
+                    <p class="card-text">Огромная библиотека компонентов для быстрой верстки</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Forms (формы) -->
+    <h1 class="text-center mb-4 txt">Регистрация</h1>
+    <div class="row justify-content-centergh">
+        <div class="col-md-8">
+            <form id="registrationForm" class="bg-white p-4 rounded-3 shadow-sm">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Имя пользователя</label>
+                    <input type="text" class="form-control" id="username" placeholder="Введите имя пользователя" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Почта</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@mail.com" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label">Пароль</label>
+                    <input type="password" class="form-control" id="password" placeholder="Введите пароль" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="role" class="form-label">Роль</label>
+                    <select class="form-select" id="role">
+                        <option value="user">Пользователь</option>
+                        <option value="admin">Администратор</option>
+                        <option value="developer">Разработчик</option>
+                    </select>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                    <label class="form-check-label" for="agreeTerms">
+                        Я согласен с условиями использования
+                    </label>
+                </div>
+
+                <!-- Buttons -->
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn but2">Зарегистрироваться</button>
+                    <button type="reset" class="btn btn-secondary">Очистить</button>
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#helpModal">Помощь</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+
+<!-- модальные окна -->
+
+<!-- Модальное окно "Узнать больше" -->
+<div class="modal fade" id="infoModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title">О Bootstrap</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Bootstrap — это мощный фреймворк для разработки адаптивных веб-приложений. Он включает в себя:</p>
+                <ul>
+                    <li>Гибкую сеточную систему</li>
+                    <li>Готовые компоненты интерфейса</li>
+                    <li>Утилиты для быстрой настройки отступов, цветов и т.д.</li>
+                    <li>Поддержку тем и кастомизации</li>
+                </ul>
+                <p class="mb-0">Bootstrap 5 не требует jQuery и полностью поддерживает современные браузеры!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                <a href="https://getbootstrap.com" target="_blank" class="btn btn-primary">Перейти на сайт</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Модальное окно "Контакты" -->
+<div class="modal fade" id="contactModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">Контактная информация</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Жданов | Порошин</strong></p>
+                <p>Студенты группы, изучающие веб-разработку и фреймворк Bootstrap.</p>
+                <hr>
+                <p><strong>Email:</strong> example@university.edu</p>
+                <p><strong>Телефон:</strong> +7 (123) 456-78-90</p>
+                <p><strong>Адрес:</strong> г. Москва, ул. Примерная, д. 1</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-success">Связаться</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Модальное окно "Помощь" -->
+<div class="modal fade" id="helpModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title">Помощь с формой</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Инструкция по заполнению:</strong></p>
+                <ol>
+                    <li>Введите ваше имя пользователя (минимум 3 символа)</li>
+                    <li>Укажите действующий email адрес</li>
+                    <li>Придумайте надежный пароль (минимум 6 символов)</li>
+                    <li>Выберите вашу роль в системе</li>
+                    <li>Подтвердите согласие с условиями</li>
+                </ol>
+                <div class="alert alert-info mt-3">
+                    <strong>Совет:</strong> Все поля обязательны для заполнения!
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="fot text-center py-3 mt-4">
+    <div class="container">
+        <small>Жданов | Порошин Все права защищены © 2024</small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+/* не менять до... */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: #313131;
+}
+
+/* Шапка */
+header {
+    background: url('../img/image\ 32.png') no-repeat center top;
+    width: 100%;
+    height: 484px;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    width: 100px;
+}
+
+header ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+header ul li{
+        display: inline-block;
+}
+header h1 {
+    margin-top: 30px;
+    font-size: 48px;
+    width: 60%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px #000, 2px 2px 10px rgba(0, 0, 0, 1);
+}
+/* до сюда */
+
+
+.payment-methods {
+    width: 100%;
+    background: linear-gradient(
+    180deg,
+    #8B5A01 0%,
+    #B58833 38%,
+    #B3904E 100%);
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.payment-h2{
+    width: 100%;
+    text-align: center;
+}
+.payment-methods h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.pay-list{
+    width: 550px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pay-block{
+    width: 550px;
+    height: 90px;
+    display: flex;
+}
+.pay-logo{
+    border-radius: 20px;
+    width: 300px;
+    height: 90px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay-logo2{
+    border-radius: 20px;
+    width: 300px;
+    height: 90px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay-logo3{
+    border-radius: 20px;
+    width: 300px;
+    height: 90px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay-logo3 img{
+    width: 120px;
+    height: 60px;
+}
+.pay-logo2 img{
+    width: 160px;
+    height: 60px;
+}
+.pay-logo img{
+    width: 200px;
+    height: 60px;
+}
+.pay-name{
+    width: 250px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+.pay-name p{
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* не менять футер */
+footer {
+    background-color: #333;
+    color: #555555;;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+/* нее менять футер */
+@media (max-width: 1024px) {
+  .payment-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .payment-item {
+    margin-bottom: 20px;
+  }
+
+  .logo-container {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+  .payment-methods h2 {
+    font-size: 24px;
+  }
+
+  .logo-container {
+    width: 120px;
+    height: 40px;
+  }
+
+  .payment-item span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .payment-list {
+    gap: 10px;
+  }
+
+  .logo-container {
+    width: 100px;
+    height: 35px;
+  }
+
+  .payment-item span {
+    font-size: 18px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .payment-methods h2 {
+    font-size: 20px;
+  }
+}

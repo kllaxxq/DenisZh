@@ -1,0 +1,30 @@
+.nav{
+    background-color: #313131;
+}
+.gradient{
+    background: linear-gradient(to bottom, #DC9579, #DB7060);
+}
+.card {
+    background-color: #DC9579;
+    border: none;
+}
+.card-custom .card-body {
+    color: white;
+}
+.fot{
+    background-color: #313131;
+    color: #515050;
+}
+.but{
+    background: #A07B58;
+    color: white;
+    box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 1);
+}
+.but2{
+    background: #DB7060;
+    color: white;
+}
+.txt{
+    font-family: 'Unbounded', sans-serif;
+    color: #313131;
+}

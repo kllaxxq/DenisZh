@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая работа №30 | Кастомизация Bootstrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!--НАВИГАЦИЯ-->
+    <nav class="navbar navbar-expand-lg navbar-custom sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#">✨ CREATIVE STUDIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+                    <li class="nav-item"><a class="nav-link active" href="#">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#catalog">Каталог</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Возможности</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+                    <li class="nav-item dropdown dropdown-custom"><a class="nav-link dropdown-toggle" href="#" >Еще</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--ГЛАВНЫЙ БАННЕР-->
+    <div class="container mt-5 pt-4">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="display-3 fw-bold mb-3">Интерактивный<br><span style="background: linear-gradient(135deg, #e67e22, #16a085); -webkit-background-clip: text; background-clip: text; color: transparent;">каталог товаров</span></h1>
+                <p class="lead text-muted mb-4">Полная кастомизация Bootstrap 5. Уникальный дизайн, нестандартные компоненты, адаптивная верстка и высокая производительность.</p>
+                <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                    <button class="btn btn-custom-primary" data-bs-toggle="modal" data-bs-target="#catalogModal">✨ Смотреть каталог</button>
+                    <button class="btn btn-custom-outline" data-bs-toggle="modal" data-bs-target="#contactModal">📞 Связаться</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card-custom p-4 text-center bg-white shadow">
+                    <div class="product-icon">🚀</div>
+                    <h3>Готов к работе</h3>
+                    <p class="text-muted">Адаптация под любые экраны + оригинальные анимации</p>
+                    <div class="progress" style="height: 8px;">
+                        <div class="progress-bar bg-warning" style="width: 95%;"></div>
+                    </div>
+                    <small class="text-muted mt-2">Кастомизация: 95%</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- СЕКЦИЯ: КАТАЛОГ ТОВАРОВ-->
+    <section id="catalog" class="container my-5 py-4">
+        <div class="text-center mb-5">
+            <h2 class="section-title">🔥 Популярные товары</h2>
+            <p class="text-muted">Нестандартные карточки с анимацией и интерактивом</p>
+        </div>
+        <div class="row g-4">
+            <!-- Товар 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                    <div class="product-icon">🎧</div>
+                    <h3 class="h4 fw-bold">Premium Headphones</h3>
+                    <p class="text-muted small">Беспроводные наушники с шумоподавлением</p>
+                    <div class="product-price">$299</div>
+                    <button class="btn btn-custom-primary btn-sm w-100" onclick="alert('Товар добавлен в корзину (демо)')">Купить сейчас</button>
+                </div>
+            </div>
+            <!-- Товар 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                    <div class="product-icon">⌚</div>
+                    <h3 class="h4 fw-bold">Smart Watch Pro</h3>
+                    <p class="text-muted small">Фитнес-трекер с GPS и мониторингом здоровья</p>
+                    <div class="product-price">$199</div>
+                    <button class="btn btn-custom-primary btn-sm w-100" onclick="alert('Товар добавлен в корзину (демо)')">Купить сейчас</button>
+                </div>
+            </div>
+            <!-- Товар 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="product-card">
+                    <div class="product-icon">📷</div>
+                    <h3 class="h4 fw-bold">Camera 4K Ultra</h3>
+                    <p class="text-muted small">Профессиональная камера для контент-мейкеров</p>
+                    <div class="product-price">$899</div>
+                    <button class="btn btn-custom-primary btn-sm w-100" onclick="alert('Товар добавлен в корзину (демо)')">Купить сейчас</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--СЕКЦИЯ: ВОЗМОЖНОСТИ -->
+    <section id="features" class="container my-5 py-3">
+        <div class="text-center mb-5">
+            <h2 class="section-title">⚡ Наши преимущества</h2>
+            <p class="text-muted">Полная кастомизация Bootstrap с сохранением функциональности</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card-custom p-4 h-100">
+                    <div class="feature-icon mb-3" style="font-size: 2.5rem;">🎨</div>
+                    <h3 class="h4 fw-bold">Цветовая схема</h3>
+                    <p class="text-muted">Изменены основные цвета: градиенты, акценты, фон. Полная переработка визуального стиля.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-custom p-4 h-100">
+                    <div class="feature-icon mb-3" style="font-size: 2.5rem;">📱</div>
+                    <h3 class="h4 fw-bold">Адаптивность</h3>
+                    <p class="text-muted">Резиновая верстка, гибкая сетка Bootstrap, корректное отображение на всех устройствах.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-custom p-4 h-100">
+                    <div class="feature-icon mb-3" style="font-size: 2.5rem;">✨</div>
+                    <h3 class="h4 fw-bold">Оригинальные компоненты</h3>
+                    <p class="text-muted">Кастомные карточки, анимированные кнопки, нестандартные выпадающие меню.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ: ФОРМА СВЯЗИ-->
+    <section id="contact" class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="form-custom">
+                    <h3 class="text-center mb-4" style="color: var(--custom-primary);">📬 Свяжитесь с нами</h3>
+                    <form id="customForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Имя</label>
+                                <input type="text" class="form-control" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Email</label>
+                                <input type="email" class="form-control" placeholder="example@mail.com" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label fw-semibold">Тема</label>
+                                <select class="form-select">
+                                    <option>Кастомизация Bootstrap</option>
+                                    <option>Сотрудничество</option>
+                                    <option>Техническая поддержка</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label fw-semibold">Сообщение</label>
+                                <textarea class="form-control" rows="4" placeholder="Ваше сообщение..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-custom-primary w-100 animate-pulse">Отправить сообщение</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- МОДАЛЬНЫЕ ОКНА -->
+    <!-- О проекте -->
+    <div class="modal fade modal-custom" id="aboutModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">🎯 О проекте</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Практическая работа №30 — полная кастомизация Bootstrap. Изменена цветовая схема, стили кнопок, форм, карточек. Добавлены оригинальные компоненты (анимированные карточки товаров, кастомный dropdown). Сохранена адаптивность и производительность.</p>
+                    <p class="mb-0 fw-bold text-muted">Команда: Жданов | Порошин</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-custom-outline" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Наша команда -->
+    <div class="modal fade modal-custom" id="teamModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">👥 Наша команда</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-unstyled">
+                        <li class="mb-3">🎨 <strong>Жданов</strong> — кастомизация компонентов, цветовая схема, анимации</li>
+                        <li class="mb-3">⚙️ <strong>Порошин</strong> — адаптация макета, формы, модальные окна, сетка</li>
+                        <li>🚀 <strong>Совместная работа</strong> — интеграция, оригинальные карточки, выпадающие меню</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-custom-primary" data-bs-dismiss="modal">Отлично!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Каталог -->
+    <div class="modal fade modal-custom" id="catalogModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">📦 Наш каталог</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <div class="border rounded p-3 text-center">
+                                <div class="product-icon">🎧</div>
+                                <h6>Наушники</h6>
+                                <small>от $199</small>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="border rounded p-3 text-center">
+                                <div class="product-icon">⌚</div>
+                                <h6>Smart Watch</h6>
+                                <small>от $149</small>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="border rounded p-3 text-center">
+                                <div class="product-icon">📷</div>
+                                <h6>Камеры</h6>
+                                <small>от $599</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-custom-primary" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Контакты -->
+    <div class="modal fade modal-custom" id="contactModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">📞 Контактная информация</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Email:</strong> hello@creativestudio.com</p>
+                    <p><strong>Телефон:</strong> +7 (999) 123-45-67</p>
+                    <p><strong>Адрес:</strong> Москва, ул. Тверская, д. 1</p>
+                    <hr>
+                    <p class="text-muted small">Свяжитесь с нами для кастомизации вашего проекта!</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-custom-outline" data-bs-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--ФУТЕР -->
+    <footer class="footer-custom">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">✨ CREATIVE STUDIO</h5>
+                    <p>Полная кастомизация Bootstrap 5. Уникальный дизайн и адаптивный интерфейс.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Навигация</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-light-50" style="color: #ecf0f1;">Главная</a></li>
+                        <li><a href="#catalog" class="text-decoration-none text-light-50" style="color: #ecf0f1;">Каталог</a></li>
+                        <li><a href="#contact" class="text-decoration-none text-light-50" style="color: #ecf0f1;">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3">Практическая работа №30</h5>
+                    <p class="small">Жданов | Порошин — кастомизация и адаптация фреймворков. Все требования выполнены.</p>
+                </div>
+            </div>
+            <hr class="mt-4 mb-3" style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center small">
+                &copy; Жданов | Порошин Все права защищены.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

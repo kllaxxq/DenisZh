@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1500px">
+    <title>Жданов:Лекция №4</title>
+    <link rel="stylesheet" href="CSS/main.css">
+<body>
+<header>
+  <h1 class="h1">Персональный сайт Жданова Дениса</h1>
+  <a href="../work.html" class="work">Вернутся к списку моих работ</a>
+</header>
+<main>
+  <h2><b>Лекция №4</b></h1>
+  <form method="podt" action="">
+    <p>Выбор цвета 1</p>
+    <input name="mycolor" type="checkbox" value="red">
+    <label>Красный (выбран по умолчанию)</label>
+    <input name="mycolor" type="checkbox" value="blue">
+    <label>Синий</label>
+    <input name="mycolor" type="checkbox" value="black">
+    <label>Чёрный</label>
+    <br><br><br><br>
+
+    <p>Выбор цвета 2</p>
+    <input name="mycolor" type="radio" value="white">
+    <label>Белый</label>
+    <input name="mycolor" type="radio" value="green">
+    <label>Зелёный</label>
+    <input name="mycolor" type="radio" value="blue">
+    <label>Синий</label>
+    <br><br><br><br>
+
+    <p>Очистить форму</p>
+    <input type="reset" name="Reset" value="Очистить форму">
+    <br><br><br><br>
+
+    <p>Вход</p>
+    <input type="text" name="txtName" size="80" maxlength="100" value="Логин">
+    <br><br>
+    <input type="text" name="txtName" size="80" maxlength="100" value="Пароль">
+
+    <p>Сколько вам лет?</p>
+    <input type="number">
+    <br><br><br><br>
+
+    <p>Скрытое поле</p>
+    <input name="email" type="hidden" value="tvoiemail@avik.ru">
+    <br><br><br><br>
+
+    <p>Отправить заявку</p>
+    <input type="submit" value="отправить заявку">
+  </form>
+  <br><br><br><br>
+
+  <form enctype="multipart/form-data" action="upload.php">
+    Загрузить файл:<input name="my_file" type="file">
+    <input type="submit" value="отправить">
+  </form>
+  <br><br><br><br>
+
+  <select name="Имя списка" size="Размер" multiple>
+    <option value="Значение">Первый элемент</option>
+    <option value="Значение">Второй элемент</option>
+  </select>
+  <br><br><br><br>
+
+  <textarea name="Имя поля" cols="Ширина поля" rows="Число">Текст</textarea>
+  <br><br><br><br>
+
+  <fieldset>
+    <legend>Програмное обеспечение(заголовок рамки)</legend>
+    Текст внутри рамки
+  </fieldset>
+  <br><br><br><br>
+
+  <label for="comments">Когда вы последний раз летали на самолёте?</label>
+  <textarea id="comments"></textarea>
+  <br><br>
+
+  <p>
+    <label>Кошка<input id="cat" type="checkbox"></label>
+  </p>
+
+  <button>Нажмти на меня</button>
+</main>
+</body>

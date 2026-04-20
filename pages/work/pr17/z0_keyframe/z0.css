@@ -1,0 +1,27 @@
+.box-1, .box-2 {   
+  background: #2db34a;     
+  height: 95px;   
+  line-height: 95px;   
+  text-align: center;   
+  width: 95px; 
+}
+
+
+
+/*сброс анимации при наведении на блок*/
+.box-1:hover {
+  animation: none;  
+}
+
+/* ключевые кадры */
+@keyframes demo { 
+  0% {        
+    opacity: 0;   
+  }   
+  50% {        
+    opacity: 0.5; 
+  }   
+  100% {        
+    opacity: 1; 
+  } 
+} 

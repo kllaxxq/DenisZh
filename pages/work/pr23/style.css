@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: url(img/111.png);
+    background-size: cover;
+    max-height: 213px;
+}
+.menu{
+    background-image: url(img/103.png);
+    width: 45px;
+    height: 25px;
+    background-size: cover;
+}
+.poisk{
+    background-image: url(img/102.png);
+    width: 38px;
+    height: 38px;
+    background-size: cover;
+    margin-left: 343px;
+}
+.akk{
+    background-image: url(img/101.png);
+    width: 62px;
+    height: 59px;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    flex-wrap: nowrap; /*Значение по умолчанию*/
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 33px;
+    margin-right: 25px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+h1{
+    margin-left: 33px;
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 19px;
+}
+.opisanie{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 49px;
+    gap: 77px;
+    padding-bottom: 13px;
+}
+.opisanie p{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.bold p{
+    font-weight: 700;
+}
+.cheto{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: 160px;
+    gap: 88px;
+}
+.img1{
+    background-image: url(img/Line\ 4.png);
+    width: 184px;
+    height: 4px;
+    background-size: cover;
+    margin-top: -42px;
+}
+.img2{
+    background-image: url(img/105.png);
+    width: 71px;
+    height: 71px;
+    background-size: cover;
+     margin-top: -35px;
+}
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 22px;
+    margin-right: 25px;
+}
+.ava{
+    width: 55px;
+    height: 55px;
+}
+.ava1{
+    background-image: url(img/113.png);
+    background-size: cover;
+}
+.ava2{
+    background-image: url(img/114.png);
+    background-size: cover;
+}
+h2{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+}
+.name{
+    margin-left: -190px
+}
+.name p{
+    color: #96A4BA;
+    font-size: 11px;
+    letter-spacing: 0.03em;
+}
+.data{
+    color: #D6D6D6;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+}
+.photo{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    align-items: center;
+    margin-left: 72px;
+    margin-top: 8px;
+}
+.photo1{
+    background-image: url(img/Lofoten-Kueste-c29da7b3359ac208.webp);
+    width: 258px;
+    height: 144px;
+    background-size: cover;
+}
+.photo2{
+    background-image: url(img/6.jpg);
+    width: 217px;
+    height: 144px;
+    background-size: cover;
+}
+.photo3{
+    background-image: url(img/i.webp);
+    width: 478px;
+    height: 296px;
+    background-size: cover;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+.love{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: 76px;
+    margin-top: 21px;
+}
+.like{
+    background-image: url(img/Vector.png);
+    background-size: cover;
+    width: 13px;
+    height: 12px;
+}
+.soobsh{
+    background-image: url(img/Vector\ \(1\).png);
+    background-size: cover;
+    width: 14px;
+    height: 13px;
+}
+.repost{
+    background-image: url(img/Vector\ \(2\).png);
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+}
+.love p{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+button{
+    width: 63px;
+    height: 25px;
+    border-radius: 28px;
+    border: none;
+}
+.icon1{
+    background-color: #71A1C2;
+}
+.icon2{
+    background-color: #D936B4;
+}
+.icon3{
+    background-color: #EAAF22;
+}

@@ -1,0 +1,255 @@
+body{
+    width:100%;
+    height: 140vh;
+    background: rgb(40, 102, 143);
+}
+header{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.block{
+    width:95%;
+    background-color: rgb(245, 233, 220);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: auto;margin-right: auto;
+    margin-bottom: 30px;
+}
+.property-title {
+    color: #81587e;
+    margin: 20px 0 10px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+p {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #eee;
+    background-color: white;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+/* Блок 1: CSS-текст */
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.text-indent-positive {
+    text-indent: 40px;
+}
+
+.text-indent-negative {
+    text-indent: -20px;
+    background-color: #fff5f5;
+}
+
+.line-height-small {
+    line-height: 1.2;
+}
+
+.line-height-large {
+    line-height: 2.0;
+    background-color: #f0f8ff;
+}
+.vertical-align-sub{
+    vertical-align: sub;
+}
+.vertical-align-top{
+    vertical-align:top
+}
+.vertical-align-middle{
+    vertical-align:middle
+}
+.vertical-align-text-bottom{
+    vertical-align:text-bottom
+}
+
+/* Блок 2: CSS-текст (часть 2) */
+.word-spacing-positive {
+    word-spacing: 10px;
+}
+
+.word-spacing-negative {
+    word-spacing: -2px;
+    background-color: #fff5f5;
+}
+
+.letter-spacing-positive {
+    letter-spacing: 3px;
+}
+
+.letter-spacing-negative {
+    letter-spacing: -1px;
+    background-color: #fff5f5;
+}
+
+.white-space-nowrap {
+    white-space: nowrap;
+    overflow-x: auto;
+    background-color: #f0f8ff;
+}
+
+.white-space-pre {
+    white-space: pre;
+    background-color: #f0f8ff;
+    font-family: monospace;
+}
+
+#tab-size-example {
+    tab-size: 8;
+    background-color: #f0f8ff;
+    padding: 15px;
+    border-radius: 4px;
+    font-family: monospace;
+    white-space: pre;
+}
+
+/* Блок 3: CSS-текст (часть 3) */
+.text-transform-uppercase {
+    text-transform: uppercase;
+}
+
+.text-transform-capitalize {
+    text-transform: capitalize;
+}
+
+.text-transform-lowercase {
+    text-transform: lowercase;
+    background-color: #f0f8ff;
+}
+
+.direction-rtl {
+    direction: rtl;
+    text-align: right;
+    background-color: #f0f8ff;
+}
+
+.text-decoration-underline {
+    text-decoration: underline;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+    background-color: #fff5f5;
+}
+
+.text-decoration-overline {
+    text-decoration: overline;
+}
+
+#first-letter-example {
+    text-indent: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #e74c3c;
+}
+
+#first-letter-example:first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    color: #e74c3c;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    line-height: 1;
+}
+
+#first-letter-example:first-line {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#quotes-example {
+    font-size: 1.2em;
+    background-color: #f8f9fa;
+    quotes: "«" "»" "‹" "›";
+}
+
+#quotes-example q {
+    quotes: inherit;
+}
+
+/* Блок 4: CSS-шрифты */
+.font-family-serif {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.font-family-sans {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-family-mono {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0f8ff;
+}
+
+.font-style-italic {
+    font-style: italic;
+}
+
+.font-variant-smallcaps {
+    font-variant: small-caps;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-weight-lighter {
+    font-weight: lighter;
+    background-color: #fff5f5;
+}
+
+.font-size-large {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.font-size-small {
+    font-size: 12px;
+    line-height: 1.6;
+    background-color: #f0f8ff;
+}
+
+.color-hex {
+    color: #FF5733;
+    font-weight: bold;
+}
+
+.color-rgb {
+    color: rgb(0, 150, 255);
+    font-weight: bold;
+}
+
+.color-rgba {
+    color: rgba(100, 200, 100, 0.7);
+    background-color: #f0f8ff;
+    font-weight: bold;
+}
+
+.color-hsl {
+    color: rgb(280, 100, 50);
+    font-weight: bold;
+}
+
+#font-short {
+    font: italic small-caps bold 18px/1.5 Georgia, serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-left: 4px solid #2ecc71;
+}

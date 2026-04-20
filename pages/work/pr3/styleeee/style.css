@@ -1,0 +1,26 @@
+
+.table1{
+    border: 2px solid black;
+    width: 800px;
+    border-collapse: collapse;
+}
+.er1{
+    border: 2px solid black;
+}
+.ulp{
+    list-style-type: circle;
+}
+.er2{
+    border: 2px solid black;
+    text-align: right;
+}
+.li12{
+    width: 150px;
+    position: relative;
+    left: 100px;
+}
+.er3{
+    border: 2px solid black;
+    position: relative;
+    bottom: 35px;
+}

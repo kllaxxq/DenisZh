@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Личный кабинет</title>
+</head>
+<body>
+    <header>
+        <span class="heading">
+            <sapn class="navlog"><button popovertarget="login">логин</button> <button popovertarget="register">регистрация</button></sapn>
+            <nav class="navigation">
+                <a href="../index.html">Главная</a>
+                <a href="news.html">Новости</a>
+                <a href="#" id="mw">Личный кабинет</a>
+                <a href="work/work.html">Мои работы</a>
+            </nav> 
+        </span>    
+        <span class="webname">Персональный сайт Жданова Дениса</span>
+    </header> 
+<main>
+  <div class="hh"><h1 class="startblock">Личный кабинет</h1></div>
+  <div class="personality">
+    <div class="photoperson"><img src="../img/personaD1.jpg"></div>
+    <div class="persona2">
+      <img src="../img/personaD2.jpg">
+      <span>Жданов Денис Алексеевич</span>
+    </div>
+    <div class="persona3">
+      <p><time>Дата Рождения: 23.08.2008</time></p>
+      <p><b>Веб-разработчик</b></p>
+      <p>Уметь создавать <b>веб-сайты</b> и продвигаться далее в сфере <b>IT - технологий</b></p>
+      <p>Увлечения: <b>фотографии, музыка, спорт</b></p>
+    </div>
+    <div class="photoperson"><img src="../img/personaD.jpg"></div>
+  </div>
+</main>
+    <footer>
+        <span class="ft1">Сайт разработан Ждановым Денисом © Все права защищены</span>
+    </footer>
+    
+<div id="login"  popover>
+        <h1>логин</h1>
+        <form action="#">
+            <div class="input-box">
+              <input type="email" required>
+              <label>Эл.почта</label>
+            </div>
+            <div class="input-box">
+              <input type="password" required>
+              <label>пароль</label>
+            </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox"> Нажми на меня </label>
+            <a href="#">Забыли пароль?</a>
+          </div>
+          <button type="submit" class="btn">логин</button>
+          <div class="login-register">
+            <p>Нет аккаунта?<a href="#" class="register-link">Регестрация</a></p>
+          </div>
+        </form>
+    </div>
+
+    <div id="register" popover>
+                <h1>регистрация</h1>
+        <form action="#">
+            <div class="input-box">
+              <input type="email" required>
+              <label>Эл.почта</label>
+            </div>
+            <div class="input-box">
+              <input type="password" required>
+              <label> Введите пароль</label>
+            </div>
+            <div class="input-box">
+              <input type="password" required>
+              <label> Подтвердите пароль</label>
+            </div>            
+          <div class="remember-forgot">
+            <label><input type="checkbox">принимаю условия и политику конфиденциальности</label>
+          </div>
+          <button type="submit" class="btn">зарегистрироватся</button>
+          <div class="login-register">
+            <p>Уже есть аккаунт?<a href="#" class="register-link">Вход</a></p>
+          </div>
+        </form>
+    </div>
+</body>
+</html>

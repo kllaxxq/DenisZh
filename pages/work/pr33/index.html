@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лендинг продукта</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased text-gray-900 leading-normal tracking-normal">
+  <header class="bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-4">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+      <div class="flex items-center">
+        <span class="font-bold text-2xl tracking-tight">Лого</span>
+      </div>
+      <nav>
+        <ul class="flex items-center">
+          <li class="mr-6"><a href="#" class="text-white hover:text-indigo-200">Главная</a></li>
+          <li class="mr-6"><a href="#" class="text-white hover:text-indigo-200">Отзывы</a></li>
+          <li><a href="#" class="text-white hover:text-indigo-200">О нас</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="py-20 px-4">
+    <div class="container mx-auto flex flex-col items-center justify-center text-center">
+      <h1 class="text-5xl font-bold mb-4 text-purple-800">Классы Tailwind CSS</h1>
+      <p class="text-2xl mb-8 text-gray-600">Фреймворк Tailwind CSS, его классы и стилизация</p>
+      <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-8 rounded">
+        Узнать больше
+      </button>
+    </div>
+  </section>
+  <section class="py-10 px-4">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-8 text-purple-800">Преимущества</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-purple-100 p-6 rounded shadow-md">
+          <h3 class="text-2xl font-bold mb-2">Ускорение разработки</h3>
+          <p class="text-gray-600">Вместо создания отдельных классов для каждого элемента вы комбинируете готовые утилитарные классы прямо в HTML.</p>
+        </div>
+        <div class="bg-purple-100 p-6 rounded shadow-md">
+          <h3 class="text-2xl font-bold mb-2">Гибкость и кастомизация</h3>
+          <p class="text-gray-600">Добавление своих цветов, изменение отступов, кастомные шрифты.</p>
+        </div>
+        <div class="bg-purple-100 p-6 rounded shadow-md">
+          <h3 class="text-2xl font-bold mb-2">Адаптивность без усилий</h3>
+          <p class="text-gray-600">Достаточно добавить префикс к классу, чтобы задать стиль для определённого разрешения.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-10 px-4">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-8 text-purple-800">Отзывы</h2>
+      <div class="grid grid-cols-1 gap-4">
+        <div class="bg-white p-6 rounded shadow-md flex">
+          <div class="w-1/6 flex items-center justify-center">
+            <div class="bg-purple-500 rounded-full w-16 h-16 flex items-center justify-center text-white text-2xl">АБ</div>
+          </div>
+          <div class="w-5/6 pl-4">
+            <h3 class="text-xl font-bold mb-2">Анна Борисовна</h3>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded shadow-md flex">
+          <div class="w-1/6 flex items-center justify-center">
+            <div class="bg-purple-500 rounded-full w-16 h-16 flex items-center justify-center text-white text-2xl">АБ</div>
+          </div>
+          <div class="w-5/6 pl-4">
+            <h3 class="text-xl font-bold mb-2">Анна Борисовна</h3>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-6">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+      <div>
+        <p class="text-xl">Контакты</p>
+        <p class="text-gray-300">Телефон: +7 (123) 456-78-90</p>
+        <p class="text-gray-300">Email: permaviat@permaviat.ru</p>
+      </div>
+      <div class="flex items-center">
+        <a href="#" class="text-white mr-4"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-white mr-4"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

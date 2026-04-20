@@ -1,0 +1,316 @@
+@font-face{
+  font-family:PT-Root-UI_Regular;
+  src: url(../font/PT_Root_UI/PT-Root-UI_Regular.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_VF;
+  src: url(../font/PT_Root_UI/PT-Root-UI_VF.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_Medium;
+  src: url(../font/PT_Root_UI/PT-Root-UI_Medium.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_Light;
+  src: url(../font/PT_Root_UI/PT-Root-UI_Light.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_Bold;
+  src: url(../font/PT_Root_UI/PT-Root-UI_Bold.ttf)
+}
+*{
+    font-family:PT-Root-UI_Medium;
+    background: #F9F9F9;
+}
+.h1{
+    width: 210px;
+    height: 48px;
+    font-size: 48px;
+    margin-left: 12%;
+}
+main{
+    width: 1392px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border-radius: 18px;
+}
+.HeadBlocks{
+    width: 1200px;
+    background: #F5F5F5;
+    margin-left: 50px;
+}
+.HeaderH1{
+    font-size: 32px;
+    font-family:PT-Root-UI_Bold;
+    background: white;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.HeaderBlock{
+    width:375px;
+    height:224px;
+    border-radius: 8px;
+    display: inline-block;
+    background: #F5F5F5;
+    margin-right: 16px;
+    overflow: hidden;
+}
+.photo{
+    width: 180px;
+    height: 224px;
+    float: left;
+    font-size: 20px;
+    border-radius: 8px 0px 0px 8px;
+}
+.Head1{
+    width: 147px;
+    height: 90px;
+    margin: 16px 20px;
+    float:left;
+    background: #F5F5F5;
+}
+.Head2{
+    width: 147px;
+    height: 108px;
+    margin: 16px 20px;
+    float:left;
+    background: #F5F5F5;
+}
+.HeaderH2{
+    width: 147px;
+    height:64px;
+    font-size: 20px;
+    background: #F5F5F5;
+    font-family:PT-Root-UI_Bold;
+    background: #F5F5F5;
+    display: block;
+}
+.HeaderTitle1{
+    width: 67px;
+    height: 18px;
+    font-size:15px;
+    color: #616161;
+    display: block;
+    padding-top: 10px;
+    background: #F5F5F5;
+}
+.HeaderTitle2{
+    width: 119px;
+    height: 36px;
+    font-size:15px;
+    color: #616161;
+    display: block;
+    padding-top: 10px;
+    background: #F5F5F5;
+}
+.HeadPhone1{
+    width: 142px;
+    height: 16px;
+    margin-top: 45px;
+    margin-left:20px;
+    float: left;
+    overflow: hidden;
+    background: #F5F5F5;
+}
+.HeadEmail{
+    width: 153px;
+    height: 18px;
+    margin:10px 20px;
+    float: left;
+    overflow: hidden;
+    background: #F5F5F5;
+}
+.HeadPhone2{
+    width: 142px;
+    height: 16px;
+    margin-top: 25px;
+    margin-left:20px;
+    float: left;
+    overflow: hidden;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    padding:2px;
+    float:left;
+}
+.phone{
+    width: 122px;
+    height: 16px;
+    font-size: 12px;
+    float: right;
+    background: #F5F5F5;
+}
+.email{
+    width: 133px;
+    height: 20px;
+    font-size: 12px;
+    background: #F5F5F5;
+}
+
+.BB{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 1200px;
+    background: #F5F5F5;
+}
+.Block{
+    width: 375px;
+    height: 301px;
+    display: inline-block;
+    margin-right: 18px;
+}
+.bl1{
+    width: 180px;
+    height: 301px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    margin-right: 15px;
+    float: left;
+}
+.bl2{
+    width: 180px;
+    height: 301px;
+    background: #F5F5F5;
+    border-radius: 8px;
+    float: left;
+}
+.BlockImg{
+    width: 180px;
+    height: 128px;
+}
+.NameBlocks{
+    width: 147px;
+    height: 82px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F5F5F5;
+}
+.HHblocks1{
+    width: 147px;
+    height: 61px;
+    font-size: 18px;
+    background: #F5F5F5;
+    font-family:PT-Root-UI_Bold;
+}
+.HHblocks2{
+    width: 68px;
+    height: 17px;
+    font-size: 18px;
+    font-size:14px;
+    color: #616161;
+    background: #F5F5F5;
+}
+.NumBlock{
+    width: 133px;
+    height: 34px;
+    font-size: 14px;
+    margin-left: 18px;
+    margin-top: 30px;
+    background: #F5F5F5;
+}
+.BlockNum{
+    width: 133px;
+    height: 16px;
+    font-size: 14px;
+    background: #F5F5F5;
+}
+.ImgMapp{
+    width: 1157px;
+    height: 417px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.HeaderBlock, .bl1, .bl2 {
+  transition: all var(--transition-slow);
+  will-change: transform, box-shadow;
+}
+/* глобальные и локальные */
+:root {
+  --primary-color: #4a6fa5;
+  --secondary-color: #6b8cbc;
+  --accent-color: #ff7e5f;
+  --text-color: #333;
+  --bg-color: #f9f9f9;
+  --card-bg: #f5f5f5;
+  --border-radius: 8px;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --transition-fast: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+.HeaderBlock {
+  --header-block-padding: 16px;
+  --header-block-margin: 16px;
+}
+/* тень */
+main {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+/* плавное появление */
+.HeaderBlock:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: var(--shadow-md);
+  background: #F5F5F5;
+}
+.HeaderBlock:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+/* адаптив */
+@media (max-width: 1200px) {
+  .HeadBlocks, .BB {
+    width: 90%;
+  }
+  .HeaderBlock, .Block {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .HeaderBlock, .Block {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .bl1, .bl2 {
+    float: none;
+    margin: 0 auto 15px;
+  }
+  main {
+    width: 95%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Head1, .Head2, .NameBlocks {
+    text-align: center;
+  }
+  .photo, .BlockImg {
+    width: 100px;
+    height: auto;
+  }
+}
+/* флексбокс и грид */
+.BB {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.Block {
+  flex: 1 1 300px;
+  height: auto;
+  margin: 0;
+}
+
+.HeaderBlock {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: stretch;
+}

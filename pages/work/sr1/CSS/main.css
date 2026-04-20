@@ -1,0 +1,63 @@
+#head{
+    color:blue
+}
+.m1{
+    color:brown;
+    font-size:2.5em;
+}
+.m2{
+    color:rgb(100, 23, 23);
+    font-weight: bold;
+    font-size:25px;
+}
+.num{
+    color: rgb(255, 0, 0);
+    font-weight:bold;
+    font-size:30px;
+}
+.tabl{
+    background-color: red;
+    border: 3px solid red;
+    font-size:50px;
+    }
+
+.el1{
+    background-color: blueviolet;
+    border: 5px solid red;
+}
+.er2{
+    text-align: center;
+    background-color:white;
+    color: red;
+}
+
+
+
+.tabl2{
+    background-color: yellow;
+    border: 3px solid yellow;
+    font-size:80px;
+    position: relative;
+    left:300px;
+    bottom:280px;
+    }
+.gr1{
+    color: white;
+    background-color: green;
+    border: 3px solid yellow;
+}
+.gr2{
+    color: red;
+    background-color: green;
+    border: 3px solid yellow;
+}
+.er3{
+    background-color:white;
+    color: red;
+    border: 3px solid yellow;
+}
+.pr1{
+    background-color:blueviolet;
+    color: white;   
+    border: 3px solid yellow;
+}
