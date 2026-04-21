@@ -12,38 +12,47 @@
     </url>
 
     <url>
-        <loc></loc>
+        <loc>https://kllaxxq.github.io/DenisZh/pages/news.html</loc>
         <image:image>
-            <image:loc></image:loc>
-            <image:title></image:title>
-            <image:caption></image:caption>
+            <image:loc>https://kllaxxq.github.io/DenisZh/img/no-image.jpg</image:loc>
+            <image:title>Изображение отсутвует</image:title>
+            <image:caption>Изображения на данный момент нет</image:caption>
         </image:image>
     </url>
 
     <url>
-        <loc></loc>
+        <loc>https://kllaxxq.github.io/DenisZh/pages/personal.html</loc>
         <image:image>
-            <image:loc></image:loc>
-            <image:title></image:title>
-            <image:caption></image:caption>
+            <image:loc>https://kllaxxq.github.io/DenisZh/img/personaD1.jpg</image:loc>
+            <image:title>Дениска</image:title>
+            <image:caption>Лучший Дениска</image:caption>
         </image:image>
     </url>
     
     <url>
-        <loc></loc>
+        <loc>https://kllaxxq.github.io/DenisZh/pages/personal.html</loc>
         <image:image>
-            <image:loc></image:loc>
-            <image:title></image:title>
-            <image:caption></image:caption>
+            <image:loc>https://kllaxxq.github.io/DenisZh/img/personaD2.jpg</image:loc>
+            <image:title>Дениска</image:title>
+            <image:caption>Дениска</image:caption>
         </image:image>
     </url>
 
     <url>
-        <loc></loc>
+        <loc>https://kllaxxq.github.io/DenisZh/pages/personal.html</loc>
         <image:image>
-            <image:loc></image:loc>
-            <image:title></image:title>
-            <image:caption></image:caption>
+            <image:loc>https://kllaxxq.github.io/DenisZh/img/personaD.jpg</image:loc>
+            <image:title>Дениска</image:title>
+            <image:caption>Дениска</image:caption>
+        </image:image>
+    </url>
+
+     <url>
+        <loc>https://kllaxxq.github.io/DenisZh/pages/work/work.html</loc>
+        <image:image>
+            <image:loc>https://kllaxxq.github.io/DenisZh/img/work1.jpg</image:loc>
+            <image:title>Работы</image:title>
+            <image:caption>Одна из первых работ и пример того, как она выглядит</image:caption>
         </image:image>
     </url>
 </urlset>
