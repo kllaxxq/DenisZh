@@ -471,3 +471,34 @@ footer{
   transform: scale(1.2);
   transition: .4s;
 }
+/* Новости */
+.newMain{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.stolbnew{
+  width: 1000px;
+  border: 2px solid white;
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5),inset 0 0 15px rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+  border-radius: 30px;
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+.stolbnew h2{
+  font-family: 'Unbounded', sans-serif;
+}
+.stolbnew img{
+  width: 400px;
+  margin-top: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5),inset 0 0 15px rgba(255, 255, 255, 0.5);
+}
+.stolbnew p{
+  margin: 0;
+  padding: 0;
+}
