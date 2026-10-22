@@ -38,8 +38,8 @@ const router = createRouter({
     routes
 })
 
-router.beforeEach((to, from, next) => {
-    const isLoggedIn = localStorage.getItem('token') === 'demo'
+router.beforeEach((to, from, next) => { //регестрирует функцию при переходе между страницами
+    const isLoggedIn = localStorage.getItem('token') === 'demo' //берем токена чтобы пользователь зашел с паролем демо (сравниванем)
 
     if (to.meta.requiresAuth && !isLoggedIn){
         next({ name: 'Login' })

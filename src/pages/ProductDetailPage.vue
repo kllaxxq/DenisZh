@@ -14,7 +14,7 @@ import { defineProps, computed } from "vue";
 
 // Получаем props из params благодаря props: true в роуте
 const props = defineProps({
-  id: { type: Number, required: true },
+  id: { type: Number, required: true }, //получает айди по кртиериям (обяз параметр)
 });
 
 const products = [
@@ -24,7 +24,7 @@ const products = [
   { id: 4, name: "Джинсы", category: "clothing", price: 4000 },
 ];
 
-const product = computed(() => products.find((p) => p.id === props.id));
+const product = computed(() => products.find((p) => p.id === Number(props.id))); //перебирает и выводит 1 удовлет элемент по условию
 </script>
 
 <style scoped>

@@ -1,10 +1,11 @@
 <script setup>
-import { ref, computed, useRoute, useRouter } from "vue-router";
+import { ref, computed } from "vue";
+import { useRoute, useRouter } from "vue-router";
 
-const route = useRoute();
-const router = useRouter();
+const route = useRoute(); //читать
+const router = useRouter(); //изменять
 
-// Начальное значение из query или 'all'
+// Начальное значение из query или 'all' - берет значение или показывает все
 const filter = ref(route.query.filter || "all");
 
 const products = [
@@ -17,7 +18,7 @@ const products = [
 // Фильтрация на основе query-параметра
 const filteredProducts = computed(() => {
   if (filter.value === "all") return products;
-  return products.filter((p) => p.category === filter.value);
+  return products.filter((p) => p.category === filter.value); //смотрит совпадает ли по значению с выбранным фильтром
 });
 
 const setFilter = (value) => {

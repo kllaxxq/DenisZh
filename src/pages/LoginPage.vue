@@ -12,17 +12,18 @@
 </template>
 
 <script setup>
-import { ref, useRouter } from "vue-router";
+import { ref } from 'vue'
+import { useRouter } from "vue-router";
 
-const password = ref("");
+const password = ref(""); //реактивная - ссылается на инпут
 const error = ref(null);
-const router = useRouter();
+const router = useRouter(); //чтобы перекл на др страницы
 
 const login = () => {
   error.value = null;
   if (password.value === "demo") {
-    localStorage.setItem("token", "demo");
-    router.push({ name: "Dashboard" });
+    localStorage.setItem("token", "demo"); //сохранием токен со значением
+    router.push({ name: "Dashboard" }); //добавление в историю + переход
   } else {
     error.value = 'Неверный пароль. Попробуйте "demo"';
   }
